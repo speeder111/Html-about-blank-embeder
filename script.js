@@ -1,4 +1,4 @@
-var urlObj = new window.URL(window.location.href);
+var urlObj = new window.URL(window.__cpLocation.href);
 //this is the link, replace it with your owns
 
 function validerurl(){
